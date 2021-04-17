@@ -410,7 +410,18 @@
             color: white;
             text-align: center;
         }
-        
+        #gotop {
+    display: none;
+    position: fixed;
+    right: 24px;
+    bottom: 50px;    
+    padding: 10px 15px;    
+    font-size: 20px;
+    background: #777;
+    color: white;
+    cursor: pointer;
+}
+
         @media (max-width:1360px){
             body{
                 margin: 0px;
@@ -623,6 +634,27 @@
             
               
     </main>
+    <div id="gotop">˄</div>
+    <!-- Start 往頂部箭頭 Jquery碼//-->
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$("#gotop").click(function(){
+jQuery("html,body").animate({
+scrollTop:0
+},1000);
+});
+$(window).scroll(function() {
+if ( $(this).scrollTop() > 300){
+$('#gotop').fadeIn("fast");
+} else {
+$('#gotop').stop().fadeOut("fast");
+}
+});
+});
+</script>
+
+
     <footer>
         
         Copyright © 2021 果然愛你 Fruit Love You. All rights reserved.
