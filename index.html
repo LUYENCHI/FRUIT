@@ -82,6 +82,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            background-color: silver;
         }
         .swiper-container {
             width: 1000px;
@@ -92,7 +93,6 @@
             background-position: center;
             background-size: cover;
         }
-      
         .about{
             width:100%;
             height: 540px;
@@ -105,6 +105,7 @@
             background-size: cover;
             background-attachment: fixed;
             font-weight: bolder;
+            background-color: wheat;
         }
         .box{
             display: flex;
@@ -119,33 +120,27 @@
             height: 160px;
             background-size: cover;
             margin-top: -60px;
-            
-            
         }
         .story{
             width: 500px;
             height: 280px;
             line-height: 26x;
-            
+
             font-size: 18px;
-          
-           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
            
         }
-        .news{
-            
+        .news{         
             width:100%;
-            height: 1080px;
-            font-size: 30px;
+            height: 540px;
+            font-size:30px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             background-color: white;
-            background-size: cover;
-            background-attachment: fixed;
             font-weight: bolder;
-            margin: 20px;
+            background-color: silver;
         }
         .content{
             font-size: 18px;
@@ -158,45 +153,59 @@
         }
         .produce{
             width:100% ;
-            height: 1620px;
+            height: 1080px;          
             
-            font-size: 30px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-image: url(img/產品透明.jpg);
-
-            background-size: cover;
-            font-weight: bolder;
-            padding-top: 50px;
-            line-height: 24px;
-            background-attachment: fixed;
+            background-color: wheat;
                                    
         }
+        /* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 15%;
+  height: 337.5px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 40%;
+  border-left: none;
+  height: 337.5px;
+}
         .box1{
             display: flex;
             justify-content: center;
             align-items: center;
             margin: 20px;
-        }
-        .wax{
-            background-image: url(img/Snapseed\ 2.jpg);
-            width: 200px;
-            height: 250px;
-            background-size: cover;
-            background-position: center;
-            margin-top: -30px;
-
-        }
-        .wax_int{
-            width: 500px;
-            height: 280px;
-            font-size: 18px;
-
-        }
-        .wax:hover{
-            background-image: url(img/ig貼文_05.png);
         }
         .box2{
             display: flex;
@@ -205,38 +214,11 @@
             margin: 20px;
             flex-direction: row-reverse;
         }
-        .dry{
-            background-image: url(img/DSC0018.jpg);
-            width: 200px;
-            height: 250px;
-            background-size: cover;
-            background-position: center;
-            margin-top: -30px;
-
-        }
-        .dry_int{
-            width: 500px;
-            height: 280px;
-            font-size: 18px;
-        }
         .box3{
             display: flex;
             justify-content: center;
             align-items: center;
             margin: 20px;
-        }
-        .shampoo{
-            background-image: url(img/洗髮精.jpg);
-            width: 200px;
-            height: 250px;
-            background-size: cover;
-            background-position: center;
-            margin-top: -30px;
-        }
-        .shampoo_int{
-            width: 500px;
-            height: 280px;
-            font-size: 18px;
         }
         .box4{
             display: flex;
@@ -245,38 +227,24 @@
             flex-direction: row-reverse;
             margin: 20px;
         }
-        .hand{
-            background-image: url(img/乾洗手.jpg);
-            width: 200px;
-            height: 250px;
-            background-size: cover;
-            background-position: center;
-            margin-top: -30px;
-
-        }
-        .hand_int{
-            width: 500px;
-            height: 280px;
-            font-size: 18px;
-        }
-       
         .buy{
             width: 100%;
-            height: 1080px;
+            height: 540px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
             font-size: 30px;
             font-weight: bolder;
             border-top: 1px solid rgb(202, 200, 200);
             margin-bottom: 50px;
+            background-color: silver;
         }
         .frame{
-            width: 50%;
+            width: 35%;
             height: 300px;
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
         }
         .boxa{
@@ -286,11 +254,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: column-reverse;
-            font-size: 20px;
             border-radius: 50%;
-            margin: 80px;
-            margin-top:10px; ;
             background-color: white;
         
     -webkit-animation: baloon_1 3s infinite;
@@ -418,13 +382,6 @@
             font-size: 18px;
             background-color: white;
         }
-        .buy_c2c{
-            background-image: url(https://cf.shopee.tw/file/129b76331505e7473429a9f4a5d4fd2c);
-            width: 100px;
-            height: 100px;
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
         .frame2{
             width: 100%;
             height: 600px;
@@ -444,9 +401,8 @@
             left: 0; top: 0;
             }
         .contact{
-            
             width: 100%;
-            height: 1080px;
+            height: 540px;
             border-top: 1px solid rgb(202, 200, 200);
             display: flex;
             justify-content: center;
@@ -456,7 +412,6 @@
             font-weight: bolder;
             background-image:url(/img/produce2.jpg);
             background-size: 90%;
-            border: 1px solid black;
         }
         .boxz{
             width: 100%;
@@ -517,8 +472,6 @@
 
 
         }
-
-
         
     </style>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
@@ -636,71 +589,90 @@
                         
                         </blockquote>
                     </div>
-                   
                 </div>  
             </div>
             <div class="news" id="anchor3">
                 <marquee direction="right" height="50" scrollamount="10" behavior="alternate">最新消息!!!</marquee>
                    <div class="content">
-                    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ffruitloveyouu%2Fposts%2F181672370441006&width=500&show_text=true&height=554&appId" width="750" height="550" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    <div class="fb-page" data-href="https://www.facebook.com/fruitloveyouu" data-tabs="timeline" data-width="350" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/fruitloveyouu" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/fruitloveyouu">果然愛你 Fruit Love You</a></blockquote></div>
                    
                 </div>
              </div>   
             <div class="produce" id="anchor2">
                 產品介紹
-                <div class="box1">
-                    <div class="wax"></div>
-                    <div class="wax_int"><blockquote>蜂途髮泥</blockquote>
-                    <blockquote>添加野橘精油，具有調理頭皮、增強控油效果，所有髮質均適用。
-                    也非常適合女性整理額頭雜毛，產品本身味道不過香或太泥蠟味，塑形效果強，可隨時改變造型風格。
-                    好清洗、不黏手，眾多造型師、藝人推薦，為今年最強零負評髮泥。</blockquote>
-                    </div>
-                </div>
-                <div class="box2">
-                    <div class="dry"></div>
+                <h2>Vertical Tabs</h2>
+                <p>Click on the buttons inside the tabbed menu:</p>
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'apple')" id="defaultOpen">蘋蘋動人</button>
+                    <button class="tablinks" onclick="openCity(event, 'pineapple')">小鳳愛梨</button>
+                    <button class="tablinks" onclick="openCity(event, 'orange')">甜橙愛你</button>
+                    <button class="tablinks" onclick="openCity(event, 'guava')">暗戀芭樂</button>
+                    <button class="tablinks" onclick="openCity(event, 'mix')">綜合水果乾</button>
+                  </div>
+                  
+                  <div id="apple" class="tabcontent">
+                    <h3>蘋果乾 $120/100g</h3>
+                    <p>London is the capital city of England.</p>
+                  </div>
+                  
+                  <div id="pineapple" class="tabcontent">
+                    <h3>鳳梨乾 $120/100g</h3>
+                    <p>Paris is the capital of France.</p> 
+                  </div>
+                  
+                  <div id="orange" class="tabcontent">
+                    <h3>甜橙乾 $120/100g</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                  </div>
+                  <div id="guava" class="tabcontent">
+                    <h3>芭樂乾 $120/100g</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                   </div>
+                  <div id="mix" class="tabcontent">
+                    <h3> 綜合水果乾$360/300g</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                   </div>
+                  <script>
+                  function openCity(evt, cityName) {
+                    var i, tabcontent, tablinks;
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                      tabcontent[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("tablinks");
+                    for (i = 0; i < tablinks.length; i++) {
+                      tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    }
+                    document.getElementById(cityName).style.display = "block";
+                    evt.currentTarget.className += " active";
+                  }
+                  
+                  // Get the element with id="defaultOpen" and click on it
+                  document.getElementById("defaultOpen").click();
+                  </script>
+                
                     
-                    <div class="dry_int"><blockquote>白麝香典雅乾洗髮噴霧</blockquote>
-                        <blockquote>
-                        是蜂途為生活忙碌的現代人傾心打造的暖系產品。只要簡單一噴，讓你輕鬆擁有沐浴後的輕盈與自在感。精心調配的白麝香典雅柔和，為你的旅途增添細緻的迷人味。
-                        蜂途陪你一起打造自在享受的生活感，讓你頭髮蓬鬆不油膩！！ </blockquote>
-                    </div>
+                <div class="box2">
+                   
                 </div>  
                 <div class="box3">
-                    <div class="shampoo"></div>
-                    <div class="shampoo_int"><blockquote>蜂途洗髮精</blockquote>
-                        <blockquote>純手工產品，未加入過量的化學藥劑，打造純天然精油洗髮配方，清潔舒緩您的頭皮。添加”Citrus Bliss柑橘清新複方精油”構成獨特、和諧的配方，清新甜美的香味有著提升情緒、減輕壓力的功效。
-                        柑橘類精油可以補充頭皮營養，具有控油效果，調性溫和可以天天使用，長期使用能舒緩鎮靜頭皮，促進毛髮的潔淨與蓬鬆。此產品為天然洗髮精，將化學起泡劑降到最低劑量，
-                        </blockquote>
-                        </div>
+                   
                 </div>
                 <div class="box4">
-                    <div class="hand"></div>
-                    <div class="hand_int"><blockquote>乾洗手凝露(精油配方) </blockquote>
-                        <blockquote>“屬於春夏秋冬的味道”
-                            Fortitude蜂途為大家獻上滿滿心意！
-                            使用了薰衣草+天竺葵、佛手柑+檸檬草、葡萄柚+薰衣草等...具有親膚性、可食用、安全性高的精油，調配出三款全新味道的乾洗手。
-                            加上原有的青橘+山雞椒屬於秋天的味道，再用匠人精神完全手工製作！！
-                            創造出屬於春、夏、秋、冬的氣息。
-                            讓你在防疫期間，也能自在享有喜歡的美好氣味。
-                            </blockquote>
-                    </div>
+                   
                 </div>
            </div>
            
             <div class="buy" id="anchor4"><blockquote>購買通路</blockquote>
                 <div class="frame">
-                    <div class="boxa"> <a href="https://zh-tw.facebook.com/lachummy/" class="list" title="點我購買">CHUMMY 樂茶米 
-                    </a></blockquote>
-                        <div class="star"></div>
+                    <div class="boxa"> <a href="https://zh-tw.facebook.com/lachummy/" target="_blank"class="list" title="樂茶米"><img src="img/chuummy.jpg" style="width: 200px; height: 200px;border-radius: 50%;" > 
                     </div>
-                    <div class="boxb"> <a href="https://shopee.tw/wingzz623"  class="list" title="Abous as"><img src="img/Shopee-logo.png" alt="" style="width: 200px; height: 200px; border-radius: 50%;"></a>
+                    <div class="boxb"> <a href="https://shopee.tw/wingzz623" target="_blank" class="list" title="蝦皮購物"><img src="img/Shopee-logo.png" alt="" style="width: 200px; height: 200px; border-radius: 50%;"></a>
                         <div class="shopee"></div>
                     </div>
                 </div>
             </div>
-            
             <div class="contact" id="anchor5">
-                            
                 <blockquote>聯絡我們</blockquote>
                 <div class="boxz">
                     
@@ -709,14 +681,12 @@
                         <blockquote>✉ fortitudethehair@gmail.com</blockquote>
                         <blockquote>✂ 台北市松山區八德路四段181巷16弄2號1樓</blockquote>
                     </div>
-                   
                     <div class="img">
-                        <div class="fb"><a href="https://www.facebook.com/fortitudetaiwan/"target="_blank" ><img src="img/facebook.png" width="40px" height="40px"></a> 
+                        <div class="fb"><a href="https://www.facebook.com/fruitloveyouu/"target="_blank" ><img src="img/facebook.png" width="40px" height="40px"></a> 
                         </div>
-                        <div class="ig"></div><a href="https://instagram.com/fortitude_tw?igshid=10yakddj0l0xw"target="_blank"><img src="img/instagram.png" width="40px" height="40px"></a> 
+                        <div class="ig"></div><a href="https://instagram.com/fruit__loveyou?igshid=18q912l7xz2j6"target="_blank"><img src="img/instagram.png" width="40px" height="40px"></a> 
                         </div>
                         <div class="ha">
-                           
                         </div>
                         <div class="fb-page" data-href="https://www.facebook.com/fruitloveyouu" data-tabs="timeline" data-width="350" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/fruitloveyouu" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/fruitloveyouu">果然愛你 Fruit Love You</a></blockquote></div>
                     </div>
