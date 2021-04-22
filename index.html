@@ -282,7 +282,7 @@
         .boxa{
             width: 300px;
             height: 300px;
-            border: 1px inset black;
+            border: 1px inset rgb(71, 150, 69);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -349,25 +349,30 @@
         .boxb{
             width: 300px;
             height: 300px;
-            border: 1px solid black;
+            border: 1px solid rgb(245, 188, 47);
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column-reverse;
             font-size: 18px;
             border-radius: 50%;
-            margin-top: 300px;
+            margin-top:150px;
+           
             background-color: white;
+            animation: baloon_1 3s infinite;
+            -o-animation: baloon_1 3s infinite;
+            -ms-animation: baloon_1 3s infinite;
+            -moz-animation: baloon_1 3s infinite;
             -webkit-animation: baloon_1 3s infinite;
-    -moz-animation: baloon_1 3s infinite;
-    -ms-animation: baloon_1 3s infinite;
-    -o-animation: baloon_1 3s infinite;
-    animation: baloon_1 3s infinite;
-    -webkit-animation-direction: alternate;
-    -moz-animation-direction: alternate;
-    -ms-animation-direction: alternate;
-    -o-animation-direction: alternate;
-    animation-direction: alternate;
+   
+    
+    
+   
+    -webkit-animation-direction: reverse;
+    -moz-animation-direction: reverse;
+    -ms-animation-direction: reverse;
+    -o-animation-direction: reverse;
+    animation-direction: reverse;
 }
 
 @-webkit-keyframes baloon_1{
