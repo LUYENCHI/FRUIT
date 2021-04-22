@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="icon" href="img/logo.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="img/logo.ico"type="image/x-icon" />
+
   
 
     
@@ -98,7 +99,7 @@
             font-size: 30px;
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
+            justify-content: center;
             align-items: center;
             background-color: white;
             background-size: cover;
@@ -231,7 +232,6 @@
             background-size: cover;
             background-position: center;
             margin-top: -30px;
-
         }
         .shampoo_int{
             width: 500px;
@@ -274,20 +274,69 @@
         }
         .frame{
             width: 50%;
-            height: 250px;
+            height: 300px;
             display: flex;
             justify-content: center;
             align-items: center;
         }
         .boxa{
             width: 300px;
-            height: 100%;
+            height: 300px;
             border: 1px inset black;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column-reverse;
-            font-size: 16px;
+            font-size: 20px;
+            border-radius: 50%;
+            margin: 80px;
+            margin-top:150px; ;
+            background-color: white;
+        
+    -webkit-animation: baloon_1 3s infinite;
+    -moz-animation: baloon_1 3s infinite;
+    -ms-animation: baloon_1 3s infinite;
+    -o-animation: baloon_1 3s infinite;
+    animation: baloon_1 3s infinite;
+    -webkit-animation-direction: alternate;
+    -moz-animation-direction: alternate;
+    -ms-animation-direction: alternate;
+    -o-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes baloon_1{
+0% { transform:translateY(20px);}
+50% {transform:translateY(50px);}
+100% {transform:translateY(20px);}
+}
+
+@-moz-keyframes baloon_1{
+0% { transform:translateY(20px);}
+50% {transform:translateY(50px);}
+100% {transform:translateY(20px);}
+}
+
+@-ms-keyframes baloon_1{
+0% { transform:translateY(20px);}
+50% {transform:translateY(50px);}
+100% {transform:translateY(20px);}
+}
+
+@-o-keyframes baloon_1{
+0% { transform:translateY(20px);}
+50% {transform:translateY(50px);}
+100% {transform:translateY(20px);}
+}
+
+@keyframes baloon_1{
+0% { transform:translateY(20px);}
+50% {transform:translateY(50px);}
+100% {transform:translateY(20px);}
+}
+        .boxa:hover{
+            transform : scale(1.2);
+
         }
         .star{
             background-image: url(img/star-02.png);
@@ -299,30 +348,71 @@
         }
         .boxb{
             width: 300px;
-            height: 100%;
+            height: 300px;
             border: 1px solid black;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column-reverse;
             font-size: 18px;
+            border-radius: 50%;
+            margin-top: 300px;
+            background-color: white;
+            -webkit-animation: baloon_1 3s infinite;
+    -moz-animation: baloon_1 3s infinite;
+    -ms-animation: baloon_1 3s infinite;
+    -o-animation: baloon_1 3s infinite;
+    animation: baloon_1 3s infinite;
+    -webkit-animation-direction: alternate;
+    -moz-animation-direction: alternate;
+    -ms-animation-direction: alternate;
+    -o-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes baloon_1{
+0% { transform:translateY(20px);}
+50% {transform:translateY(50px);}
+100% {transform:translateY(20px);}
+}
+
+@-moz-keyframes baloon_1{
+0% { transform:translateY(20px);}
+50% {transform:translateY(50px);}
+100% {transform:translateY(20px);}
+}
+
+@-ms-keyframes baloon_1{
+0% { transform:translateY(20px);}
+50% {transform:translateY(50px);}
+100% {transform:translateY(20px);}
+}
+
+@-o-keyframes baloon_1{
+0% { transform:translateY(20px);}
+50% {transform:translateY(50px);}
+100% {transform:translateY(20px);}
+}
+
+@keyframes baloon_1{
+0% { transform:translateY(20px);}
+50% {transform:translateY(50px);}
+100% {transform:translateY(20px);}
         }
-        .shopee{
-            background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b5/Shopee-logo.jpg);
-            width: 100px;
-            height: 100px;
-            background-size: contain;
-            background-repeat: no-repeat;
+        .boxb:hover{
+            transform : scale(1.2);
+
         }
         .boxc{
             width: 300px;
-            height: 100%;
+            height: 300px;
             border: 1px solid black;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column-reverse;
             font-size: 18px;
+            background-color: white;
         }
         .buy_c2c{
             background-image: url(https://cf.shopee.tw/file/129b76331505e7473429a9f4a5d4fd2c);
@@ -564,6 +654,7 @@
                 </div>
                 <div class="box2">
                     <div class="dry"></div>
+                    
                     <div class="dry_int"><blockquote>白麝香典雅乾洗髮噴霧</blockquote>
                         <blockquote>
                         是蜂途為生活忙碌的現代人傾心打造的暖系產品。只要簡單一噴，讓你輕鬆擁有沐浴後的輕盈與自在感。精心調配的白麝香典雅柔和，為你的旅途增添細緻的迷人味。
@@ -594,11 +685,11 @@
            
             <div class="buy" id="anchor4"><blockquote>購買通路</blockquote>
                 <div class="frame">
-                    <div class="boxa">彰化市彰美路一段155號<blockquote> <a href="https://www.facebook.com/Re-Salon-%E6%98%9F%E8%8A%9D%E6%BC%BE%E7%BE%8E%E9%AB%AE%E6%B2%99%E9%BE%8D-2255009791279472/" class="list" title="Abous as">LA CHUMMY 樂茶米 
+                    <div class="boxa"> <a href="https://zh-tw.facebook.com/lachummy/" class="list" title="點我購買">CHUMMY 樂茶米 
                     </a></blockquote>
                         <div class="star"></div>
                     </div>
-                    <div class="boxb"> <a href="https://shopee.tw/fortitudethehair" class="list" title="Abous as">蝦皮購物</a>
+                    <div class="boxb"> <a href="https://shopee.tw/wingzz623"  class="list" title="Abous as"><img src="img/Shopee-logo.png" alt="" style="width: 200px; height: 200px; border-radius: 50%;"></a>
                         <div class="shopee"></div>
                     </div>
                 </div>
