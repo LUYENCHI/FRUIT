@@ -154,8 +154,8 @@
         .produce{
             width:100% ;
             height: 1080px;          
+            
             background-color: wheat;
-            text-align: center;
                                    
         }
         /* Style the tab */
@@ -164,14 +164,12 @@
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   width: 15%;
-  height: 250px;
+  height: 337.5px;
 }
-.tablinks{
-    height: 50px;
-}
+
 /* Style the buttons inside the tab */
 .tab button {
-  display: flex;
+  display: block;
   background-color: inherit;
   color: black;
   padding: 22px 16px;
@@ -179,16 +177,14 @@
   border: none;
   outline: none;
   text-align: left;
-  align-items: center;
   cursor: pointer;
   transition: 0.3s;
-  font-size: 15px;
-  
+  font-size: 17px;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: rgb(31, 30, 30);
+  background-color: #ddd;
 }
 
 /* Create an active/current "tab button" class */
@@ -203,13 +199,13 @@
   border: 1px solid #ccc;
   width: 40%;
   border-left: none;
-  height: 250px;
+  height: 337.5px;
 }
         .box1{
             display: flex;
             justify-content: center;
             align-items: center;
-          
+            margin: 20px;
         }
         .box2{
             display: flex;
@@ -254,11 +250,12 @@
         .boxa{
             width: 300px;
             height: 300px;
+            border: 1px inset rgb(71, 150, 69);
             display: flex;
             justify-content: center;
             align-items: center;
             border-radius: 50%;
-            
+            background-color: white;
         
     -webkit-animation: baloon_1 3s infinite;
     -moz-animation: baloon_1 3s infinite;
@@ -315,12 +312,16 @@
         .boxb{
             width: 300px;
             height: 300px;
+            border: 1px solid rgb(245, 188, 47);
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column-reverse;
             font-size: 18px;
             border-radius: 50%;
-
+            
+           
+            background-color: white;
             animation: baloon_1 3s infinite;
             -o-animation: baloon_1 3s infinite;
             -ms-animation: baloon_1 3s infinite;
@@ -402,6 +403,7 @@
         .contact{
             width: 100%;
             height: 540px;
+            border-top: 1px solid rgb(202, 200, 200);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -447,7 +449,7 @@
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
-        } 
+        }
         
         footer{
             background-color: rgb(34, 33, 33);
@@ -592,14 +594,14 @@
             <div class="news" id="anchor3">
                 <marquee direction="right" height="50" scrollamount="10" behavior="alternate">最新消息!!!</marquee>
                    <div class="content">
-                    <div class="fb-page" data-href="https://www.facebook.com/fruitloveyouu" data-tabs="timeline" data-width="750" data-height="350" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/fruitloveyouu" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/fruitloveyouu">果然愛你 Fruit Love You</a></blockquote></div>
+                    <div class="fb-page" data-href="https://www.facebook.com/fruitloveyouu" data-tabs="timeline" data-width="350" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/fruitloveyouu" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/fruitloveyouu">果然愛你 Fruit Love You</a></blockquote></div>
                    
                 </div>
              </div>   
             <div class="produce" id="anchor2">
-                <h2>產品介紹</h2>
-                <p>果乾系列</p>
-                <div class="box1">
+                產品介紹
+                <h2>Vertical Tabs</h2>
+                <p>Click on the buttons inside the tabbed menu:</p>
                 <div class="tab">
                     <button class="tablinks" onclick="openCity(event, 'apple')" id="defaultOpen">蘋蘋動人</button>
                     <button class="tablinks" onclick="openCity(event, 'pineapple')">小鳳愛梨</button>
@@ -648,11 +650,10 @@
                   // Get the element with id="defaultOpen" and click on it
                   document.getElementById("defaultOpen").click();
                   </script>
-                  </div>
                 
                     
                 <div class="box2">
-                  
+                   
                 </div>  
                 <div class="box3">
                    
@@ -664,9 +665,9 @@
            
             <div class="buy" id="anchor4"><blockquote>購買通路</blockquote>
                 <div class="frame">
-                    <div class="boxa"> <a href="https://zh-tw.facebook.com/lachummy/" target="_blank"class="list" title="樂茶米"><img src="img/chuummy.jpg" style="width: 150px; height: 150px;" ></a>
+                    <div class="boxa"> <a href="https://zh-tw.facebook.com/lachummy/" target="_blank"class="list" title="樂茶米"><img src="img/chuummy.jpg" style="width: 200px; height: 200px;border-radius: 50%;" > 
                     </div>
-                    <div class="boxb"> <a href="https://shopee.tw/wingzz623" target="_blank" class="list" title="蝦皮購物"><img src="img/Shopee-logo.png"  style="width: 200px; height: 200px; border-radius: 50%;"></a>
+                    <div class="boxb"> <a href="https://shopee.tw/wingzz623" target="_blank" class="list" title="蝦皮購物"><img src="img/Shopee-logo.png" alt="" style="width: 200px; height: 200px; border-radius: 50%;"></a>
                         <div class="shopee"></div>
                     </div>
                 </div>
@@ -687,7 +688,7 @@
                         </div>
                         <div class="ha">
                         </div>
-                       
+                        <div class="fb-page" data-href="https://www.facebook.com/fruitloveyouu" data-tabs="timeline" data-width="350" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/fruitloveyouu" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/fruitloveyouu">果然愛你 Fruit Love You</a></blockquote></div>
                     </div>
                 </div>
                     <div class="rwd-map">
