@@ -188,7 +188,6 @@
 .tab button:hover {
   background-color: #ddd;
 }
-
 /* Create an active/current "tab button" class */
 .tab button.active {
   background-color: #ccc;
@@ -248,6 +247,7 @@
             justify-content: space-between;
             align-items: center;
         }
+   
         .boxa{
             width: 300px;
             height: 300px;
@@ -333,7 +333,6 @@
     -o-animation-direction: normal;
     animation-direction: normal;
 }
-
 @-webkit-keyframes baloon_1{
 0% { transform:translateY(30px);}
 50% {transform:translateY(60px);}
@@ -362,7 +361,7 @@
 0% { transform:translateY(30px);}
 50% {transform:translateY(60px);}
 100% {transform:translateY(30px);}
-        }
+}
         .boxb:hover{
             transform : scale(1.2);
 
@@ -538,7 +537,7 @@
         <div class="container">
             <div class="banner" id="top">
      <!-- Swiper -->
-    <div class="swiper-container">
+    <div class="swiper-container id=b1">
     <div class="swiper-wrapper">
       <a href="https://shopee.tw/wingzz623"class="swiper-slide" style="background-image:url(img/Fruit\ Love\ You-\ br\ .jpg)" id="b"></a>
       <div class="swiper-slide" style="background-image:url(img/Love\ you\ all\ my\ life.jpg)"></div>
@@ -555,7 +554,7 @@
 
   <!-- Initialize Swiper -->
   <script>
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.swiper-container id=b1', {
       effect: 'cube',
       grabCursor: true,
       cubeEffect: {
@@ -644,7 +643,45 @@
                   </script>
                 </div>
                 <div class="box2">
-                   
+                   <!-- Swiper -->
+  <div class="swiper-container " id=s1>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(img/Your\ favorite.jpg);"></div>
+      <div class="swiper-slide" style="background-image:url(img/Fall\ in\ love.jpg);"></div>
+      <div class="swiper-slide" style="background-image: url(img/Our\ love.jpg);"></div>
+      <div class="swiper-slide" style="background-image: url(img/Love\ you\ so\ much.jpg);"></div>
+      <div class="swiper-slide" style="background-image: url(img/Love\ you\ all\ my\ life.jpg);"></div>
+
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container ', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
                 </div>  
                 <div class="box3">
                    
@@ -667,10 +704,8 @@
                 <blockquote>聯絡我們</blockquote>
                 <div class="boxz">
                     
-                    <div class="inf">
-                        <blockquote>☎ 02- 2747 4359</blockquote>                                     
-                        <blockquote>✉ fortitudethehair@gmail.com</blockquote>
-                        <blockquote>✂ 台北市松山區八德路四段181巷16弄2號1樓</blockquote>
+                    <div class="inf">                                     
+                        <blockquote>✉ fruitloveyou@gmail.com</blockquote>
                     </div>
                     <div class="img">
                         <div class="fb"><a href="https://www.facebook.com/fruitloveyouu/"target="_blank" ><img src="img/facebook.png" width="40px" height="40px"></a> 
@@ -678,6 +713,8 @@
                         <div class="ig"></div><a href="https://instagram.com/fruit__loveyou?igshid=18q912l7xz2j6"target="_blank"><img src="img/instagram.png" width="40px" height="40px"></a> 
                         </div>
                         <div class="ha">
+                            <div class="line-it-button" data-lang="zh_Hant" data-type="friend" data-lineid="@970ngbea" data-count="true" data-home="true" style="display: none;"></div>
+ <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
                         </div>
                     </div>
                 </div>
